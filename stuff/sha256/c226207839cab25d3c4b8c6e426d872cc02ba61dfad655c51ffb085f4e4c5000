@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+THIS_SCRIPT_HASH="$(sha256sum "$0" | sed "s/ .*//")"
+cd "$(dirname "$(find | grep "stuff/sha256/$THIS_SCRIPT_HASH")")"
+cd ../../
+python3 -m http.server --bind localhost "$1"
