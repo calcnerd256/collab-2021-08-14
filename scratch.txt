@@ -3,3 +3,5 @@ no readme file yet
 bash ./stuff/sha256/c226207839cab25d3c4b8c6e426d872cc02ba61dfad655c51ffb085f4e4c5000 8080
 
 I kind of wish I had named this project after the string with a SHA-256 of cc01fb96a55676ded4789ba17eb604044f8c0a4273beca69edaf8962724ad5c8 instead.
+
+You began a naming convention for the file path at which we store bags of bytes.  I have a problem with this naming convention: it doesn't scale.
